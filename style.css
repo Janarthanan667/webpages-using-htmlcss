@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.overview{
+    height: 100vh;
+    width: 100%;
+    background-image:url('img2.png');
+    background-size: cover;
+    background-position: center;
+   opacity: 0.8;
+}
+.navbar{
+    background: transparent;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 40px;
+}
+span{
+    color: red;
+    font-size: 30px;
+}
+li,ul,a{
+    margin-right: 10px;
+    padding: 20px;
+    text-align: right ;
+    display: inline;
+    color: white;
+    text-decoration: none;
+    
+}
+li:hover{
+    color: red;
+}
+ul{
+    margin-left: 100px;
+}
+.images{
+    width: 20px;
+    height: 20px;
+    margin-right: 100px;
+    align-items: start;
+}
+.one{
+    text-align: left;
+    width: 59.8%;
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+}
+h2{
+    padding: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.one ,span{
+    font-size: 30px;
+}
+h3{
+    padding: 10px;
+    padding-top: 3px;
+    margin-left: 60px;
+}
+p{
+    padding: 10px;
+    padding-top: 3px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    margin-left: 65px;
+    background: transparent;
+    display: inline;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px;
+}
+button:hover{
+    background-color: red;
+}
+@media screen and (max-width: 768px) {
+    ul {
+      display: none;
+    }
+}
